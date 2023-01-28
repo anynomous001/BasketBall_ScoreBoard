@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scorecard</title>
+
+
+    <link rel="stylesheet" href="scorecard.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="card-div">
+
+        <div id="home-div">
+            <h1>HOME</h1>
+            <div class="score-div" id="homeScore">
+                <p id="scoreELH">0</p>
+            </div>
+            <button onclick="add_OneH()">+1</button>
+            <button onclick="add_TwoH()">+2</button>
+            <button onclick="add_ThreeH()">+3</button>
+
+        </div>
+
+
+        <div id="guest-div">
+            <h1>GUEST</h1>
+            <div class="score-div" id="guestScore">
+                <p id="scoreELG">0</p>
+            </div>
+            <button onclick="add_OneG()">+1</button>
+            <button onclick="add_TwoG()">+2</button>
+            <button onclick="add_ThreeG()">+3</button>
+        </div>
+
+    </div>
+    <script src="scorecard.js"></script>
+</body>
+
+</html>
